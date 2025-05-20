@@ -1,0 +1,73 @@
+const tintColorLight = '#2f95dc';
+const tintColorDark = '#fff';
+
+export default {
+  light: {
+    text: '#000',
+    background: '#fff',
+    tint: tintColorLight,
+    tabIconDefault: '#ccc',
+    tabIconSelected: tintColorLight,
+    primary: '#2563eb',
+    secondary: '#8b5cf6',
+    accent: '#ec4899',
+    success: '#10b981',
+    warning: '#f59e0b',
+    error: '#ef4444',
+    gray: {
+      100: '#f3f4f6',
+      200: '#e5e7eb',
+      300: '#d1d5db',
+      400: '#9ca3af',
+      500: '#6b7280',
+      600: '#4b5563',
+      700: '#374151',
+      800: '#1f2937',
+      900: '#111827',
+    },
+    platformColors: {
+      Facebook: '#1877f2',
+      Instagram: '#e1306c',
+      Twitter: '#1da1f2',
+    },
+    statusColors: {
+      Draft: '#9ca3af',
+      Scheduled: '#f59e0b',
+      Published: '#10b981',
+    },
+  },
+  dark: {
+    text: '#fff',
+    background: '#000',
+    tint: tintColorDark,
+    tabIconDefault: '#ccc',
+    tabIconSelected: tintColorDark,
+    primary: '#3b82f6',
+    secondary: '#a78bfa',
+    accent: '#f472b6',
+    success: '#34d399',
+    warning: '#fbbf24',
+    error: '#f87171',
+    gray: {
+      100: '#1f2937',
+      200: '#374151',
+      300: '#4b5563',
+      400: '#6b7280',
+      500: '#9ca3af',
+      600: '#d1d5db',
+      700: '#e5e7eb',
+      800: '#f3f4f6',
+      900: '#f9fafb',
+    },
+    platformColors: {
+      Facebook: '#1877f2',
+      Instagram: '#e1306c',
+      Twitter: '#1da1f2',
+    },
+    statusColors: {
+      Draft: '#6b7280',
+      Scheduled: '#fbbf24',
+      Published: '#34d399',
+    },
+  },
+};
